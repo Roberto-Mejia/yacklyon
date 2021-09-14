@@ -306,8 +306,8 @@ SECCIÓN DE SUSCRIBETE
 .suscribete form {
   display: flex;
   max-width: 70rem;
-  border: .2rem solid whitesmoke;
-  padding: .5rem;
+  border: 0.2rem solid whitesmoke;
+  padding: 0.5rem;
   border-radius: 5rem;
   margin: 2rem auto;
   height: 5.5rem;
@@ -330,11 +330,78 @@ SECCIÓN DE SUSCRIBETE
 .suscribete [type="submit"] {
   background: white;
   width: 20rem;
-  font-size: 1.7rem; 
+  font-size: 1.7rem;
   border-radius: 5rem;
   cursor: pointer;
 }
 
 .suscribete [type="submit"]:hover {
   color: var(--limon);
+}
+
+/* ================
+PÁGINA DE OPINIONES
+ ================*/
+.opiniones .heading {
+  text-align: center;
+  background: var(--verde);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  padding-top: 5rem;
+}
+
+.opiniones .caja-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.opiniones .caja-contenedor .caja {
+  background: white;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+}
+
+.opiniones .caja-contenedor .caja .fa-atom {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 8rem;
+  color: var(--limon);
+  opacity: 0.3;
+}
+
+.opiniones .caja-contenedor .caja .user img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 8rem;
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+.opiniones .caja-contenedor .caja .user h3 {
+  color: var(--verde);
+  font-size: 2rem;
+}
+
+.opiniones .caja-contenedor .caja .user .stars i {
+  color: var(--verde);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.opiniones .caja-contenedor .caja .comentarios {
+  color: #666;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
