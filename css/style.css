@@ -114,3 +114,60 @@ header [type="checkbox"] {
 .navbar a:hover {
     color: var(--limon);
 }
+
+/* ==============
+PÁGINA DE INICIO
+============== */
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/inicio_fondo.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: var(--border)
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.audifono {
+  width: 35vw;
+  animation: float 3s linear infinite;
+  border: var(--border)
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-3.5rem);
+  }
+}
+
+.content {
+  padding: 0;
+  border: var(--border)
+}
+
+.content h3 {
+  font-size: 5.5rem;
+  color: var(--verde);
+  text-transform: uppercase;
+  border: var(--border)
+}
+
+.content h3 span {
+  color: var(--limon);
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 1.7rem;
+  color: var(--verde);
+  padding: 1rem 0;
+  border: var(--border)
+}
