@@ -1,3 +1,10 @@
+@media (min-width:1200px) {
+  .footer .caja-contenedor .caja {
+    flex: 1 1 25rem;
+    margin: 5rem 10rem;
+  }
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -6,9 +13,7 @@
 
 @media (max-width: 990px) {
   .section {
-    padding: 0 3%;
-    padding-top: 7.5rem;
-    padding-bottom: 2rem;
+    padding: 7.5rem 0rem 2rem 3%; 
   }
 }
 
@@ -79,7 +84,7 @@
   .acerca {
     background-position: right;
   }
-  
+
   .suscribete p {
     width: auto;
   } 
@@ -96,5 +101,10 @@
 
   .columna .content .bottons a:last-child{
     margin: 1rem 0;
+  }
+
+  .footer .caja-contenedor .caja {
+    flex: 1 1 25rem;
+    margin: 1rem 4rem;
   }
 }
