@@ -75,10 +75,22 @@
   .content .p {
     font-size: 1.5rem;
   }
+
+  .acerca {
+    background-position: right;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 49%;
+  }
+  .columna .content .bottons a{
+    width: 100%;
+    text-align: center;
+  }
+
+  .columna .content .bottons a:last-child{
+    margin: 1rem 0;
   }
 }
