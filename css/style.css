@@ -46,17 +46,71 @@ section {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  padding: .8rem 3rem;
+  padding: 0.8rem 3rem;
   border-radius: 5rem;
   background: var(--degradado);
   font-size: 1.8rem;
   color: white;
   cursor: pointer;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-  transition: all .3s linear;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
 }
 
 .btn:hover {
   transform: scale(1.1);
+}
 
+/* ===========
+NAVEGACIÓN MENÚ
+============== */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  border: var(--border);
+}
+
+header input {
+    display: none;
+}
+
+header label {
+    font-size: 3rem;
+    color: var(--verde);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    border: var(--border);
+}
+
+header [type="checkbox"] {
+    display: none;
+}
+
+.logo {
+    font-size: 2rem;
+    color: var(--verde);
+}
+
+.logo span {
+    color: var(--limon);
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: var(--verde);
+    border: var(--border);
+}
+
+.navbar a:hover {
+    color: var(--limon);
 }
