@@ -79,6 +79,10 @@
   .acerca {
     background-position: right;
   }
+  
+  .suscribete p {
+    width: auto;
+  } 
 }
 
 @media (max-width: 450px) {

@@ -277,3 +277,64 @@ PÁGINA DE ACERCA
 .columna .content .bottons a:last-child {
   margin-left: 2rem;
 }
+
+/* ===================
+SECCIÓN DE SUSCRIBETE
+==================== */
+.suscribete {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: url(../img/fondo_sub.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+}
+
+.suscribete h3 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.suscribete p {
+  color: whitesmoke;
+  font-size: 1.6rem;
+  margin: 2rem auto;
+  width: 70rem;
+}
+
+.suscribete form {
+  display: flex;
+  max-width: 70rem;
+  border: .2rem solid whitesmoke;
+  padding: .5rem;
+  border-radius: 5rem;
+  margin: 2rem auto;
+  height: 5.5rem;
+}
+
+.suscribete [type="email"] {
+  padding: 0 2rem;
+  font-size: 1.7rem;
+  background: none;
+  width: 100%;
+  color: white;
+  text-transform: none;
+  background: none;
+}
+.suscribete [type="email"]::placeholder {
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+.suscribete [type="submit"] {
+  background: white;
+  width: 20rem;
+  font-size: 1.7rem; 
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.suscribete [type="submit"]:hover {
+  color: var(--limon);
+}
