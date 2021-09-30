@@ -8,6 +8,7 @@ ESTILOS GLOBALES
   --limon: #25d1b2;
   --degradado: linear-gradient(90deg, var(--limon), var(--verde));
   --border: 1px solid none;
+  --blanco: #ffffff;
 }
 
 * {
